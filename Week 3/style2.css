@@ -1,0 +1,20 @@
+h1:nth-child(1), 
+p:nth-child(3) {
+    color: blue
+}
+
+#bigText {
+    font-size: 500%;
+    color: purple
+}
+
+
+.redText {color: red;
+}
+p {
+    background-color: pink;
+}
+
+h1,p {
+    font-family: Papyrus;
+}
