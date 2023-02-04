@@ -1,0 +1,30 @@
+.top {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottom {
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+    width: 90%;
+}
+.desk {
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(52, 51, 51);
+    margin: 55px;
+}
+.graphic {
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(52, 51, 51);
+    margin: 55px;
+}
+.person {
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(52, 51, 51);
+    margin: 55px;
+}
