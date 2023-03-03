@@ -59,6 +59,7 @@ nav a:hover {
 .title {
     background-color:#E7E4EC ;
     color: black;
+    text-align: center;
     text-decoration: none;
     font-size: 30px;
 }
@@ -198,6 +199,7 @@ nav {
     color: black;
     padding: 15px;
     padding-top: 50px;
+    text-align: center;
 }
 .water {
     display: block;
