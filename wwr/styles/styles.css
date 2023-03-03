@@ -195,16 +195,22 @@ nav {
     transform: scale(1.1);
 }
 #river-box{
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
     color: black;
     padding: 15px;
     padding-top: 50px;
 }
 .water {
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+    width: 50%;
+}
+.water:hover {
+    opacity: .9;
+    transform: scale(1.01);
+    margin: 0 auto;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
