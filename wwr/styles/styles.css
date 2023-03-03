@@ -209,6 +209,8 @@ nav {
     margin-bottom: 25px;
     width: 50%;
     border: 5px solid #724647;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .water:hover {
     opacity: .9;
