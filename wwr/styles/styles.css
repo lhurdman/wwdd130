@@ -205,14 +205,18 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     width: 50%;
+    border: 5px solid #724647;
 }
 .water:hover {
     opacity: .9;
     transform: scale(1.01);
-    margin: 0 auto;
+}
+.welcome {
+    border: 5px solid #724647;
+    padding: 15px;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
