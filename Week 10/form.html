@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 practise</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        function sayhello (event) {
+            alert('Hi, aweseome user');
+        }
+    </script>
+</head>
+<body>
+    <h1>Week 10 Forms Practice</h1>
+    <form action="" onsubmit="sayhello(event)">
+        <label for="">First Name</label>
+        <input type="text">
+        <label for="">Last Name</label>
+        <input type="text">
+
+        <h2>User Info</h2>
+        <h3>User Age</h3>
+        <label for="">Child</label>
+        <input type="radio" name="age" value="child">
+        <br>
+        <label for="">Teenager</label>
+        <input type="radio" name="age" value="teenager">
+        <br>
+        <label for="">Adult</label>
+        <input type="radio" name="age" value="adult">
+        <br>
+        <h3>Birthday</h3>
+        <label for="">Please enter your birthday (MM/DD/YYYY)</label>
+        <input type="text">
+        <h3>Sensitive Information</h3>
+        <label for="">Enter your SS#</label>
+        <input type="text">
+        <h3>Other Information</h3>
+        <label for="">You will subscibe and you will love it</label>
+        <input type="checkbox" checked onclick="return false">
+        <br><br>
+        <input type="submit">
+    
+    </form>
+    <br>
+    <button onclick="sayhello">Do some java script</button>
+</body>
+</html>
