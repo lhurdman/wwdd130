@@ -1,7 +1,21 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 body {
-    width: 75%;
     background-color: white;
 }
-img {
-    width: 50%;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
