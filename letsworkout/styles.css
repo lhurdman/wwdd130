@@ -1,6 +1,6 @@
 header {
     display: grid;
-    background-color: pink;
+    background-color: #D8DBEC;
     grid-template-columns: 150px 1fr;
 }
 nav a {
