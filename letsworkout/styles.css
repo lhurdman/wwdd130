@@ -88,6 +88,7 @@ color:#0C3D45;
 }
 .logo {
 width: 80px;
+border-radius: 5px;
 }
 #hero-img {
 width: 100%;
