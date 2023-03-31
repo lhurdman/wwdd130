@@ -217,6 +217,9 @@ padding-bottom: 20px;
 grid-column: 1 / span 3;
 grid-row: 1 / span 3;
 }
+.half {
+    width: 100%;
+}
 
 .item2 {
 grid-column: 2 / span 1;
